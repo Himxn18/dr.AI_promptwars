@@ -14,7 +14,7 @@ const AuthPage = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const BACKEND_URL = import.meta.env.VITE_API_URL || 'https://dr-ai-promptwars.onrender.com';
 
   const handleInputChange = (e) => {
     setFormData({
