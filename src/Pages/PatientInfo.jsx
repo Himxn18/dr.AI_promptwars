@@ -1,4 +1,4 @@
-import PatientForm from '../components/PatientForm';
+import PatientForm from '../Components/PatientForm';
 
 const PatientInfo = () => {
     return (
